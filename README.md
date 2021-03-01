@@ -1,5 +1,5 @@
 # django-custom-user
-####Django custom user with email and username authentication
+_**Django custom user with email and username authentication**_
 
 Feel free to change, break and learn to create your own custom user.
 
