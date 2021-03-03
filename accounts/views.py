@@ -1,6 +1,10 @@
+from django.contrib.auth import get_user_model
 from django.shortcuts import render
 
 from .forms import UserRegistrationForm
+
+
+User = get_user_model()
 
 
 def register(request):
@@ -17,3 +21,11 @@ def register(request):
     else:
         user_form = UserRegistrationForm()
     return render(request, 'registration/register.html', {'user_form': user_form})
+
+
+def dashboard_view(request):
+    user = User.objects.get(username=request.user)
+    context = {
+        'user': user,
+    }
+    return render(request, 'accounts/dashboard.html', context)

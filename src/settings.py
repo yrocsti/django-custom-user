@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = # auto generated secret key
+SECRET_KEY = '1029384756!@#$%^&*()-+='
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -135,6 +135,6 @@ AUTHENTICATION_BACKENDS = [
 # have email sent to the console for testing purposes only. Change this to your mail server for production.
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # Upon successful sign in, logout or clicking login link constant variables below will handle redirect to named urls
-LOGIN_REDIRECT_URL = 'dashboard'
+LOGIN_REDIRECT_URL = 'accounts:dashboard'
 LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
