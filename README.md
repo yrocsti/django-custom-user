@@ -7,7 +7,7 @@ All the contained code can be found in the django code base.
 [GitHub](http://github.com/django/django)
 
 ![Image of code download]
-(github_code_img.png)
+(https://octodex.github.com/images/github_code_img.png)
 
 Once downloaded into your django directory where your manage.py file is located. Be sure to save each file after making changes.
 Make sure to add accounts to your installed apps in your project settings folder.
