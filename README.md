@@ -6,8 +6,7 @@ Feel free to change, break and learn to create your own custom user .
 All the contained code can be found in the django code base.
 [GitHub](http://github.com/django/django)
 
-![Image of code download]
-(https://github.com/yrocsti/django-custom-user/blob/main/images/github_code_img.png)
+![Image of code download](https://github.com/yrocsti/django-custom-user/blob/main/images/github_code_img.png)
 
 Once downloaded into your django directory where your manage.py file is located. Be sure to save each file after making changes.
 Make sure to add accounts to your installed apps in your project settings folder.
