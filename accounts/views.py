@@ -24,7 +24,7 @@ def register(request):
 
 
 def dashboard_view(request):
-    user = User.objects.get(username=request.user)
+    user = request.user
     context = {
         'user': user,
     }
