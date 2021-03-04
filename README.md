@@ -7,7 +7,7 @@ All the contained code can be found in the django code base.
 [GitHub](http://github.com/django/django)
 
 ![Image of code download]
-(/images/github_code_img.png)
+(https://github.com/yrocsti/django-custom-user/images/github_code_img.png)
 
 Once downloaded into your django directory where your manage.py file is located. Be sure to save each file after making changes.
 Make sure to add accounts to your installed apps in your project settings folder.
@@ -93,7 +93,7 @@ urlpatterns = [
 ```
 
 *<your_main_project_directory>/templates*
-This is where you can dan define a base html page and navbar to build your templates from.
+This is where you can define a base html page and navbar to build your templates.
 
 
 ### Accounts directory
