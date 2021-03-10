@@ -3,9 +3,11 @@
 {% block title %}Welcome{% endblock %}
 
 {% block content %}
-    <h1>Logged Out</h1>
+    <h1>Account successfully created.</h1>
     <p>
-        Your account has been successfully created.
-        You can now <a href="{% url 'login' %}">Login</a>
+        Your account has been successfully created, but you must activate it first.
+        An email has been sent to the address with which you registered.
+        Please check your spam folder before contacting us.
+        Thank you!
     </p>
 {% endblock %}
