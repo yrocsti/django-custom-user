@@ -1,7 +1,9 @@
 # django-custom-user
-_**Django custom user with email and username authentication**_
+_**Django custom user with email, username authentication and email verification**_
 
 Feel free to change, break and learn to create your own custom user .
+If you like this project and want to see more make sure to give a star.
+Any questions or comments please post them in the disccussions and I will try to get back to you as soon as possible.
 
 All the contained code can be found in the django code base.
 [GitHub](http://github.com/django/django)
