@@ -140,4 +140,4 @@ Here we tell admin what forms to use and how we want to view the models.
 	*registration*
 		This needs to be called registration so the built in django views know where to find the 			templates.
 
-**Coming soon email verification**
+Email verification is here!!!
